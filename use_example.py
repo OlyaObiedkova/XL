@@ -5,7 +5,7 @@ x, y, z = symbols('x y z')
 equations = [
     x*y + y*z + z*x + 1,  # Приклад нелінійного рівняння
     x + y + z + 1,
-    x*y*z + x + z
+    x*y + x + z
 ]
 
 # Запускаємо алгоритм
